@@ -13,6 +13,7 @@ sudo pacman -S shfmt pacman-contrib namcap mdformat --noconfirm
 - [launch](./launch.md)
 - [repack](./repack.md)
 - [build](./build.md)
+- [depends](./depends.md)
 
 ______________________________________________________________________
 
