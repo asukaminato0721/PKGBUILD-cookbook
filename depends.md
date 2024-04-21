@@ -7,3 +7,19 @@ namcap *.pkg.tar.zst | grep --perl-regexp 'ency .*? detected' --only-matching | 
 ```
 
 then copy the output to PKGBUILD
+
+---
+
+check electron version
+
+for windows electron app
+
+```sh
+strings *.exe | grep '^Chrome/[0-9.]* Electron/[0-9]'
+```
+
+for linux
+
+```sh
+strings <app> | grep '^Chrome/[0-9.]* Electron/[0-9]'
+```
